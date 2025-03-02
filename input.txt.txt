@@ -1,0 +1,51 @@
+cpp
+102
+Kalung Kucing
+50000
+10
+Kalung
+Kulit
+Merah
+Kucing
+M
+PetLuxe
+
+java
+102
+Mainan Anjing
+75000
+15
+Mainan
+Plastik
+Biru
+Anjing
+L
+PawPlay
+
+python
+102
+Mangkuk Makan
+30000
+20
+Mangkuk
+Stainless
+Silver
+Kucing
+S
+PetFeeder
+
+php
+<form method="post" enctype="multipart/form-data">
+    ID Produk: <input type="number" name="id"><br>
+    Nama Produk: <input type="text" name="nama"><br>
+    Harga: <input type="number" name="harga"><br>
+    Stok: <input type="number" name="stok"><br>
+    Jenis: <input type="text" name="jenis"><br>
+    Bahan: <input type="text" name="bahan"><br>
+    Warna: <input type="text" name="warna"><br>
+    Untuk Hewan: <input type="text" name="untuk"><br>
+    Ukuran: <input type="text" name="size"><br>
+    Merek: <input type="text" name="merek"><br>
+    Foto Produk: <input type="file" name="foto_produk"><br>
+    <input type="submit" value="Tambah Produk">
+</form>
