@@ -11,6 +11,25 @@ Saya Rahmat taufik al-hidayah dengan NIM 2300414 mengerjakan evaluasi Tp 2 dalam
 <img width="705" alt="java2" src="https://github.com/user-attachments/assets/a8d14169-496d-4248-b7f6-3f85d894f775" />
 <img width="781" alt="py 2" src="https://github.com/user-attachments/assets/30ef7425-4c58-4de0-afbd-e70b1ec4c96c" />
 
+# Desain
+Program ini adalah sistem manajemen produk PetShop berbasis OOP (Object-Oriented Programming) dengan tiga kelas utama:
+
+PetShop (Super Class) → Menyimpan ID, Nama, Harga, dan Stok
+Aksesoris (Turunan dari PetShop) → Menyimpan Jenis, Bahan, dan Warna
+Baju (Turunan dari Aksesoris) → Menyimpan Kategori Hewan, Ukuran, dan Merek
+Konsep utama yang digunakan:
+✅ Encapsulation → Data hanya diakses melalui getter & setter
+✅ Inheritance → Kelas Baju & Aksesoris mewarisi atribut dari PetShop
+✅ Polymorphism (opsional) → Bisa dikembangkan untuk metode berbeda per kategori
+
+Implementasi per bahasa:
+
+C++ → Performa cepat, kontrol penuh terhadap memori
+Java → Multi-platform, cocok untuk aplikasi berbasis objek
+Python → Mudah dibaca, cocok untuk pengembangan cepat
+PHP → Ideal untuk aplikasi web & terhubung ke database
+Sistem ini bisa digunakan untuk e-commerce petshop, manajemen stok, dan rekomendasi produk. 🚀
+
 # alur 
 Inisialisasi Data
 Program membuat objek dari kelas Baju yang memiliki semua atribut dari PetShop dan Aksesoris.
@@ -22,6 +41,8 @@ Menampilkan Data Produk
 Program menampilkan informasi lengkap dari produk yang sudah disimpan.
 Opsional: Menyimpan ke File atau Database
 Bisa menyimpan data dalam array (list), file, atau database sesuai kebutuhan.
+
+
 
 
 
